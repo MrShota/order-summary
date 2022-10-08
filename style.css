@@ -88,7 +88,7 @@
     align-items: center;
 }
 .bundle img{
-    width: 45px;
+    width: 48px;
 }
 
 .bundle p {
@@ -160,20 +160,39 @@ cursor: pointer;
     background-color: #766CF1;
     cursor: pointer;
 }
-@media screen and  (min-size:376px){
+/* @media screen and (min-width:375px) {
     .container{
-        width: 100vw;
-        height: 100vh;
-        position: relative;
+        max-width: 375px;
     }
     .main-div{
         width: 327px;
-        height: 727px;
-        position: absolute;
-        margin: 71px 24px;
-
+        height: 567px;
     }
-    .main-div img{
-        width: inherit;
+    .top-div img{
+        object-fit: cover;
     }
-}
+    .bundle{
+        width: 279px;
+        height: 81px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bundle p {
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 18.52px;
+    }
+    
+    .bundle span {
+        font-size: 14px;
+        line-height: 18.52px;
+        font-weight: 500;
+    }
+    
+    .bundle a {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 17.2px;
+    }
+    
+} */
